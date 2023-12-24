@@ -1,0 +1,140 @@
+ALT SCHOOL AFRICA
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+    </nav>
+    <H3>SIGN UP HERE</H3>
+
+    <form action="#" method="post">
+        <p>
+           <label for="enter your name">First Name:</label>
+           <input type="text" id="name" name="enter your name" required>
+        </p>
+
+        <p>
+            <label for="middle name">Middle Name:</label>
+            <input type="text" id="name" name="middle name" />
+        </p>
+
+        <p>
+            <label for="SurName">SurName:</label>
+            <input type="text" id="name" name="SurName" />
+        </p>
+
+        <p>
+            <label for="phone">Phone No:</label>
+            <input type="tel" id="phone" name="phone" />
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+        </p>
+
+        <p>
+            <label for="role">Gender:</label>
+            <select id="role" name="role">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Others">Others</option>
+         </select>
+         </p>
+
+        <p>
+            <label for="City of Residence">City of Residence:</label>
+            <input type="text" id="City of Residence" name="City of Residence" />
+         </p>
+
+         <p>
+            <label for="state of origin">State of Origin:</label>
+            <input type="text" id="state of orirgin" name="state of origin" />
+         </p>
+        <p>
+            <label for="role">Country:</label>
+            <select id="role" name="role">
+              <option value="Nigeria">Nigeria</option>
+              <option value="Other">Other</option>
+         </select>
+         </p>
+        <p>
+            <label for="date of birth">Date of Birth:</label>
+            <input type="number" id="date of birth" name="date of birth" />
+            </p>
+        <p>
+           <label for="password">Create Password:</label>
+           <input type="password" id="password" name="password" />
+        </p>
+
+        <p>
+            <label for="password">Confirm Password:</label>
+            <input type="password" id="password" name="password" />
+         </p>
+        <p>
+           <label for="role">Level of Education:</label>
+           <select id="role" name="role">
+             <option value="Secondary School Graduate">Secondary School Graduate</option>
+             <option value="Under-Graduate">Under-Graduate</option>
+             <option value="University Graduate">University Graduate</option>
+        </select>
+        </p>
+
+        <p>
+            <label for="role">Employment Status:</label>
+            <select id="role" name="role">
+              <option value="user">employed</option>
+              <option value="admin">unemployed</option>
+          </select>
+          </p>
+
+        <p>
+          <label for="role">How Did You Hear About Us:</label>
+          <select id="role" name="role">
+            <option value="Facebook">Facebook</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Twitter">Twitter</option>
+            <option value="Google Ad">Google Ad</option>
+        </select>
+        </p>
+
+        <p>
+           <label for="role">Choose School:</label>
+           <select id="role" name="role">
+            <option value="School of Product">School of Product</option>
+            <option value="School of Engineering">School of Engineering</option>
+            <option value="School of Data">School Of Data</option>
+        </select>
+        </p>
+
+        <p>
+            <label for="role">Choose Course of Study:</label>
+            <select id="role" name="role">
+             <option value="front-end design">Front-end Engineering</option>
+             <option value="back-end engineering">Back-end Engineering</option>
+             <option value="cloud engineering">Cloud Engineering</option>
+             <option value="product design">Product design</option>
+             <option value="product analyst">Product Analyst</option>
+             <option value="product marketing">Product Marketing</option>
+             <option value="data analyst">Data Analyst</option>
+             <option value="data design">Data Design</option>
+             <option value="data management">Data Management</option>
+
+         </select>
+         </p>
+ 
+        <p>
+        <input type="submit" value="Sign Up">
+        </p>
+    </form>
+
+</body>
+</html>
